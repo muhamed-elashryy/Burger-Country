@@ -1,0 +1,89 @@
+.box {
+    width: 300px;
+    padding: 0px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(155, 41, 0, 0.74);
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: aliceblue;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    transition: 0.5s;
+    background-color: orangered;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(155, 41, 0, 0.74);
+    padding: 14px 40px;
+    outline: none;
+    color: aliceblue;
+    border-radius: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background-color: orangered;
+}
+
+#social3 {
+    font-size: 40px;
+    position: relative;
+}
+
+.so2 {
+    word-spacing: 5px;
+    padding-top: 10px;
+}
+
+.fab {
+    color: orangered;
+}
+
+.fa-facebook:hover {
+    color: #0e3b9c;
+    transition: 0.8s;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+    transition-duration: 0.8s;
+}
+
+.fa-google:hover {
+    color: rgb(255, 226, 162);
+    transition-duration: 0.8s;
+}

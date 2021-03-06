@@ -1,0 +1,7 @@
+@import url(logo.css);
+@import url(menu.css);
+@import url(hero.css);
+@import url(tutsection.css);
+@import url(slider.css);
+@import url(wsfooter.css);
+@media only screen and (min-width:1170px) and (max-width:1270px) {}

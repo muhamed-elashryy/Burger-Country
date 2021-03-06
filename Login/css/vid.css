@@ -1,0 +1,28 @@
+#vid {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#vid h2 {
+    position: relative;
+    font-size: 5em;
+    color: #ffffff;
+    z-index: 10000;
+    mix-blend-mode: overlay;
+    top: -35%;
+}
+
+#vid video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,30 @@
+#wsfooter {
+    font-size: 15px;
+    clear: both;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 30px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(252, 50, 0, 0.842);
+}
+
+a:hover {
+    color: rgba(250, 247, 246, 0.842);
+    transition-duration: 0.8s;
+}
+
+#social2 {
+    font-size: 20px;
+    position: relative;
+}
+
+.so2 {
+    word-spacing: 5px;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}

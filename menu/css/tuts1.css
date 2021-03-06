@@ -1,0 +1,63 @@
+#tuts {
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.877);
+    text-align: center;
+    padding-top: 50px;
+    color: cornsilk;
+}
+
+#tuts h1 {
+    color: orangered;
+    font-size: 80px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.row {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.col-3 {
+    position: relative;
+    width: 32%;
+    height: 300px;
+    float: left;
+    margin-right: 1%;
+    padding: 25px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.col-left {
+    margin-left: 8%;
+}
+
+.col-left:hover {
+    width: 500px;
+    font-size: 30px;
+}
+
+.tut-header {
+    padding: 10px;
+    color: orangered;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.col-3 img {
+    background: rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.692);
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(255, 68, 0, 0.651);
+    width: 100%;
+}
+
+.col-3 img:hover {
+    box-shadow: 0px 5px 15px orangered;
+    transition: 0.5s;
+}
+
+.tut-footer {
+    padding-top: 10px;
+    color: rgb(247, 186, 144);
+    font-size: 20px;
+}

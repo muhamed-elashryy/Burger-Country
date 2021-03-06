@@ -1,0 +1,84 @@
+#menu {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(73, 14, 2, 0.897);
+    /*
+      position: fixed;
+      */
+}
+
+#menu h1 {
+    margin-left: 40px;
+}
+
+#menu h1 a {
+    font-family: cursive;
+    text-decoration: none;
+}
+
+#menu .menu-item {
+    position: relative;
+}
+
+.menu-item {
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.menu-item a {
+    color: rgba(255, 255, 255, 0.966);
+    text-decoration: none;
+    padding: 50px;
+}
+
+.menu-item a:hover {
+    color: rgba(252, 50, 0, 0.842);
+    transition-duration: 0.8s;
+}
+
+.menu-all {
+    float: right;
+    padding-right: 12%;
+}
+
+#son {
+    margin-top: 10px;
+    position: relative;
+    display: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(172, 78, 11);
+    color: aliceblue;
+    z-index: 999;
+    transition: all 0.8s;
+}
+
+#son>li {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding: 15px;
+    font-size: 15px;
+    list-style-type: none;
+    cursor: pointer;
+    width: 100% !important;
+}
+
+.menu-open {
+    display: grid;
+    background-color: rgb(172, 78, 11);
+    transition: all 0.5s;
+}
+
+#son>li:hover {
+    background-color: rgba(250, 103, 6, 0.459);
+    color: cornsilk;
+    transition: all 0.5s;
+}
+
+#son li a {
+    text-align: center;
+    color: cornsilk;
+    font-size: 18px;
+}

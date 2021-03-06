@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(7, 3, 0);
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*  background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.692)), url("/imgs/img_4.jpg");*/
+
+
+/*
+      <!-- Big BB3 -->
+                <div class="col-3 col-left">
+                    <header class="tut-header"> Chicken </header>
+                    <img src="imgs/img_7.jpg" width="360" height="146" alt="html site">
+                    <footer class="tut-footer">
+                        <p>
+                            I will not believe to some extent try .. two pieces of chicken covered with rusk, with cheese, lettuce, excellent and delicious sauce, and a delicious piece of living in the middle
+
+
+
+
+
+
+
+                        </p>
+                    </footer>
+                </div>
+
+
+*/

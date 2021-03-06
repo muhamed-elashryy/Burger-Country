@@ -1,0 +1,78 @@
+.menuu {
+    position: relative;
+    float: left;
+    left: -260px;
+    width: 260px;
+    height: 400px;
+    background-color: rgb(117, 51, 3);
+    color: cornsilk;
+    z-index: 999;
+    transition: all 0.5s;
+}
+
+.menuu h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menu-open {
+    left: 0;
+    background-color: chocolate;
+}
+
+
+/*  button close  */
+
+.close-btn {
+    display: block;
+    height: 60px;
+    font-size: 30px;
+    float: right;
+    padding: 0 10px;
+    background-color: rgb(136, 6, 32);
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    line-height: 60px;
+    transition: all 0.5s;
+}
+
+
+/*  button open  */
+
+.open-btn {
+    background-color: crimson;
+}
+
+#father>li {
+    list-style-type: none;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 140, 0, 0.616);
+    font-size: 20px;
+}
+
+#father li:hover {
+    background-color: rgb(20, 11, 0);
+    color: cornsilk;
+}
+
+
+/*  items on */
+
+#son {
+    display: none;
+    width: 100% !important;
+}
+
+#son>li {
+    background-color: rgb(160, 51, 0);
+    color: cornsilk;
+}
+
+#son>li:hover {
+    background-color: rgb(230, 230, 230);
+    color: black;
+}

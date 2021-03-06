@@ -1,0 +1,45 @@
+#menu {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(73, 14, 2, 0.897);
+    /*
+      position: fixed;
+      */
+}
+
+#menu h1 {
+    margin-left: 40px;
+}
+
+#menu h1 a {
+    font-family: cursive;
+    text-decoration: none;
+}
+
+#menu .menu-item {
+    position: relative;
+}
+
+.menu-item {
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.menu-item a {
+    color: rgba(253, 248, 246, 0.842);
+    text-decoration: none;
+    padding: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menu-item a:hover {
+    color: orangered;
+    transition-duration: 0.8s;
+}
+
+.menu-all {
+    float: right;
+    padding-right: 15%;
+}

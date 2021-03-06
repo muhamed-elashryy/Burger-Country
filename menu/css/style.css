@@ -1,0 +1,61 @@
+@import url(logo.css);
+@import url(menu.css);
+@import url(tuts1.css);
+@import url(meals.css);
+@import url(bar2.css);
+#end-1 {
+    margin-top: 25%;
+    font-size: 15px;
+    clear: both;
+    text-align: center;
+    background-color: rgba(68, 22, 0, 0.877);
+    padding: 30px 0;
+    height: 70px;
+}
+
+#end-1.slash {
+    padding-bottom: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(252, 50, 0, 0.842);
+}
+
+p {
+    color: rgba(240, 248, 255, 0.712);
+    font-size: 19px;
+}
+
+#end-1 p .slash {
+    margin-bottom: 3%;
+}
+
+#social3 {
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.so2 {
+    word-spacing: 5px;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-facebook-square:hover {
+    color: #0e3b9c;
+    transition-duration: 0.8s;
+}
+
+.fa-twitter-square:hover {
+    color: #1da1f2;
+    transition-duration: 0.8s;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+    transition-duration: 0.8s;
+}

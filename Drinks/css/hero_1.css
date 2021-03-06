@@ -1,0 +1,79 @@
+#hero-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Drinks/imgs/img_4.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+}
+
+.hello {
+    padding-top: 6%;
+    margin-left: 4.8%;
+    position: unset;
+}
+
+#hero-2 h1 {
+    text-align: left;
+    color: rgb(255, 94, 0);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#hero-2 h3.qoutes {
+    margin-left: 4.8%;
+    padding-top: 4px;
+    color: aliceblue;
+    animation: qoutes 5s steps(123);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid orangered;
+    border-radius: unset;
+    width: 80ch;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+@keyframes qoutes {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 80ch;
+    }
+    0% {
+        width: 0ch;
+    }
+}
+
+.button2 {
+    margin-left: 3.3%;
+}
+
+.cta {
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: rgba(252, 50, 0, 0.726);
+    color: cornsilk;
+    font-size: 120%;
+    box-shadow: 0 5px rgba(224, 114, 70, 0.808);
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+.cta:hover {
+    color: orangered;
+    background-color: aliceblue;
+}
+
+.cta:active {
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);
+}
